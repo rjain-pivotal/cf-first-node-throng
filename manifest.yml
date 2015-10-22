@@ -5,4 +5,5 @@ applications:
   memory: 512M
   instances: 1
   timeout: 60
+  build_pack: nodejs_buildpack
   host: node-first-app-throng-${random-word}
